@@ -32,6 +32,18 @@
 
 ### Consulta No. 4
 
-4. 
+4. Se desea obtener los registros cuyos apellidos sean Vanegas o Cetina, se debe utilizar el operador `IN` que especifica los registros que se quieren visualizar de una tabla.
+
+`SELECT apellidos, nombre FROM Cliente WHERE apellidos IN('Vanegas', 'Cetina')`
+
+![Consulta4_1](consulta4_1.png "Consulta 4_1")
+
+O se puede utilizar el operador `OR`
+
+`SELECT apellidos, nombre FROM Cliente WHERE apellidos = 'Vanegas' OR apellidos = 'Cetina'`
+
+![Consulta4_2](consulta4_2.png "Consulta 4_2")
+
+
 
 
