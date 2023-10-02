@@ -24,4 +24,14 @@
 2. Para visualizar solamente la identificacion del Cliente: `SELECT identificacion FROM Cliente`
 ![Consulta2](consulta2.png "Consulta 2")
 
+### Consulta No. 3
+
+3. Si se desea obtener los registros cuya identificacion sea mayor o igual a 150, se debe utilizar la cláusula `WHERE` que especifica las condiciones que deben reunir los registros que se van a seleccionar: `SELECT * FROM Cliente WHERE identificacion>=150`
+
+![Consulta3](consulta3.png "Consulta 3")
+
+### Consulta No. 4
+
+4. 
+
 
