@@ -145,3 +145,8 @@ O se puede utilizar el operador `OR`
 
 ![Inner join 1](innerjoin1.png "inner join 1")
 
+2. Para visualizar todos los campos de las tablas Cliente y Pedido donde identificacion sea mayor que 100, se debe realizar la siguiente instrucción:
+
+`SELECT Cliente.*, Pedido.* FROM Cliente INNER JOIN Pedido ON Cliente.identificacion = Pedido.iden_cliente WHERE Cliente.identificacion>100`
+
+![Inner join 2](innerjoin2.png "inner join 2")
